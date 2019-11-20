@@ -1,6 +1,6 @@
 var fs = require('fs');
 
-var folder  = "E://JWSY9 10-9-19//JWSY9 10-9-19//Chapter14";
+var folder  = `D:\\XAMPPNEW\\htdocs\\JWSY5\\PRODUCTION\\TSG\\Gold\\Chapters\\engine\\pdf`
 
 fs.readdir( folder, ( err, folderContent) => {
     folderContent.forEach( ( file ) => {
